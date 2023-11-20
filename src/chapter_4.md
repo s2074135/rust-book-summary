@@ -125,8 +125,8 @@ value without taking ownership of it.
 
 We call having references as function parameters borrowing.
 
-Just as variables are immutable by default, so are references. We’re
-not allowed to modify something we have a immutable reference to.
+Just as variables are immutable by default, so are references. Therefore
+we’re not allowed to modify a reference, if the reference is immutable.
 
 ## Mutuable references
 
